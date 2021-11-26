@@ -1,0 +1,115 @@
+$secondry-color:#26343D;
+
+.main-Register{
+display: flex;
+flex-direction: row;
+justify-content: center;
+height: 100vh;
+width: 100vw;
+overflow-x: hidden;
+
+.left-side{
+        flex:0.33;
+        background: $secondry-color;
+        .header{
+            height: 15rem;
+            margin-top: 2rem;
+            #logo-img{
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .body{
+            height: 10rem;
+            margin-top: 2rem;
+            background: white;
+
+            #reg-img{
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        p{
+            color: white;
+            padding: 1.8rem 0.8rem;
+            text-align: left;
+            font-size: smaller;
+        }
+    }
+.right-side{
+        flex:0.67;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        .top-right{
+            float: right;
+            margin-right: 1rem;
+            font-size: small;
+             #Links-signin{
+                text-decoration: none;
+                font-style: 300;
+                margin-left: .3rem;
+                cursor: pointer;
+                color: gray;
+                &:hover{
+                    color:aqua;
+                }
+            }
+        }
+        .body-right{
+            height: 100%;
+            width:100%;
+                .container{
+                        height: 80%;
+                        width: 60%;
+                        margin:2rem auto;
+                        padding-top:1rem;
+                        box-shadow: 0rem 0rem 2rem 0.1rem #48ea98;
+                        border-radius: 0.5rem;
+                        .input-group{
+                            width: 100%;
+                            position: relative;
+                                h5{
+                                    font-size: small;
+                                    font-weight: 300;
+                                    color:gray;
+                                    position: absolute;
+                                    left:20%;
+                                    top:0;
+                                    margin:0.5rem auto;
+                                    background: white;
+
+
+                                }
+                                input{
+                                    margin:1.2rem auto;
+                                    width:60%;
+                                    border:none;
+                                    padding:0.5rem 0.5rem;
+                                    box-shadow: 0.1rem 0.1rem 0.3rem 0.1rem gray;
+                                   
+                                    &:focus{
+                                        outline: none;
+                                       
+                                    }
+                                }
+                              
+                            }
+                        }
+                        #sbtn{
+                            width:63%;
+                            background:$secondry-color ;
+                            color: white;
+                            cursor: pointer;
+                            border: none;
+                            padding:0.5rem 2.5rem;
+                            transition: all 0.3s ease-in-out;
+                            &:hover{
+                            box-shadow: 0.5rem 0.5rem 1rem 0.1rem gray;
+                        }
+                        }
+              
+                }
+            
+        }
+    }

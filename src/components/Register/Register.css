@@ -1,0 +1,147 @@
+.main-Register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.main-Register .left-side {
+  -webkit-box-flex: 0.33;
+      -ms-flex: 0.33;
+          flex: 0.33;
+  background: #26343D;
+}
+
+.main-Register .left-side .header {
+  height: 15rem;
+  margin-top: 2rem;
+}
+
+.main-Register .left-side .header #logo-img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-Register .left-side .body {
+  height: 10rem;
+  margin-top: 2rem;
+  background: white;
+}
+
+.main-Register .left-side .body #reg-img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-Register .left-side p {
+  color: white;
+  padding: 1.8rem 0.8rem;
+  text-align: left;
+  font-size: smaller;
+}
+
+.main-Register .right-side {
+  -webkit-box-flex: 0.67;
+      -ms-flex: 0.67;
+          flex: 0.67;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.main-Register .right-side .top-right {
+  float: right;
+  margin-right: 1rem;
+  font-size: small;
+}
+
+.main-Register .right-side .top-right #Links-signin {
+  text-decoration: none;
+  font-style: 300;
+  margin-left: .3rem;
+  cursor: pointer;
+  color: gray;
+}
+
+.main-Register .right-side .top-right #Links-signin:hover {
+  color: aqua;
+}
+
+.main-Register .right-side .body-right {
+  height: 100%;
+  width: 100%;
+}
+
+.main-Register .right-side .body-right .container {
+  height: 80%;
+  width: 60%;
+  margin: 2rem auto;
+  padding-top: 1rem;
+  -webkit-box-shadow: 0rem 0rem 2rem 0.1rem #48ea98;
+          box-shadow: 0rem 0rem 2rem 0.1rem #48ea98;
+  border-radius: 0.5rem;
+}
+
+.main-Register .right-side .body-right .container .input-group {
+  width: 100%;
+  position: relative;
+}
+
+.main-Register .right-side .body-right .container .input-group h5 {
+  font-size: small;
+  font-weight: 300;
+  color: gray;
+  position: absolute;
+  left: 20%;
+  top: 0;
+  margin: 0.5rem auto;
+  background: white;
+}
+
+.main-Register .right-side .body-right .container .input-group input {
+  margin: 1.2rem auto;
+  width: 60%;
+  border: none;
+  padding: 0.5rem 0.5rem;
+  -webkit-box-shadow: 0.1rem 0.1rem 0.3rem 0.1rem gray;
+          box-shadow: 0.1rem 0.1rem 0.3rem 0.1rem gray;
+}
+
+.main-Register .right-side .body-right .container .input-group input:focus {
+  outline: none;
+}
+
+.main-Register .right-side .body-right #sbtn {
+  width: 63%;
+  background: #26343D;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 2.5rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-Register .right-side .body-right #sbtn:hover {
+  -webkit-box-shadow: 0.5rem 0.5rem 1rem 0.1rem gray;
+          box-shadow: 0.5rem 0.5rem 1rem 0.1rem gray;
+}
+/*# sourceMappingURL=Register.css.map */
